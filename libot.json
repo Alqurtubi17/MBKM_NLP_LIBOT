@@ -1,0 +1,135 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan", 
+        "yuhuu"
+      ],
+      "responses": [
+        "Hai! bot di sini. Lagi cari informasi tentang apa nih?",
+        "Halo! Saya bot, salam kenal ya! Mau tau tentang layanan perpustakaan , kan?",
+        "Helo! Ini bot. Lagi kepo tentang layanan perpustakaan ya?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you", 
+        "bubay", 
+        "dadaa"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, selamat melanjutkan hari!",
+        "Sampai jumpa!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak",
+        "makasih ya"
+      ],
+      "responses": [
+        "Dengan senang hati:)", 
+        "Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "penjelasan_layanan_perpustakaan",
+      "patterns": [
+        "Apa saja layanan bot perpustakaan?"
+      ],
+      "responses": [
+        "lewat bot ini teman-teman bisa mendapatkan informasi mengenai jenis-jenis layanan perpustakaan dan cara mengaksesnya"
+      ]
+    },
+    {
+      "tag": "program_perpustakaan",
+      "patterns": [
+        "Apa saja program perpustakaan yang tersedia?"
+      ],
+      "responses": [
+        "Teman teman dapat mengakses informasi pendaftaran, cari tahu letak buku melalui jenisnya, jam buka perpustakaan dan peraturan peminjaman buku, mau tahu tentang apa?"
+      ]
+    },
+    {
+      "tag": "program_perpustakaan",
+      "patterns": [
+        "informasi pendaftaran , jam buka perpustakaan dan peraturan peminjaman buku",
+        "letak buku sesuai kategori",
+        "jam buka perpustakaan dan peraturan peminjaman buku"
+      ],
+      "responses": [
+        "Mau tau tentang apa nih?"
+      ]
+    },
+      
+    {
+      "tag": "informasi_pendaftaran",
+      "patterns": [
+        "Bagaimana cara mendaftar sebagai anggota perpustakaan?"
+      ],
+      "responses": [
+        "Untuk mendaftar teman-teman bisa mengisi formulir langsung di resepsionis perpustakaan, dokumen yang dibutuhkan adalah ktm/bukti krs"
+      ]
+    },
+    {
+      "tag": "jam_buka_perpustakaan",
+      "patterns": [
+        "Kapan perpustakaan buka?"
+      ],
+      "responses": [
+        "Perpustakaan buka senin-jum'at mulai pukul 08.00 pagi sampai pukul 23.00, hari libur nasional dan weekend perpustakaan tutup"
+      ]
+    },
+    {
+      "tag": "peraturan_peminjaman_buku",
+      "patterns": [
+        "Bagaimana peraturan meminjam buku?"
+      ],
+      "responses": [
+        "Membawa kartu peminjaman buku yang bisa didapatkan setelah melakukan pendaftaran, maksimal meminjam 2 buku sekali peminjaman  dan batas waktu peminjaman 2 Minggu per buku"
+      ]
+    },
+    {
+      "tag": "letak_buku_sesuai_kategori",
+      "patterns": [
+        "Dimana letak buku kategori...?"
+      ],
+      "responses": [
+        "Buku Fiksi ada di rak no 1-5 di lorong depan, Buku Edukasi ada di rak nomor 6, Buku Ekonomi dan bisnis ada di rak nomor 7-8, Buku sastra ada di rak nomor 9-10, Buku Olahraga ada di rak nomor 11, Majalah dan Koran ada di rak nomor 12 "
+      ]
+    }
+  ]
+}
